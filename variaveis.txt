@@ -1,0 +1,1 @@
+Genero (F), Ano de lançamento (U), numero de paginas (U), Genero do personagem principal (F), TEMA (F), idioma original (F), Complexidade da linguagem (U), Populariedade(U), Público-Alvo(U), Narrador(U), titulo do livro

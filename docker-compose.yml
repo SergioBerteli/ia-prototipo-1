@@ -1,0 +1,15 @@
+services:
+  pythonapp:
+    build: ./sistema_rbc/
+    command: python3 ./sistema_rbc.py
+    depends_on:
+      - basededados
+
+  basededados:
+    build: ./base_de_dados/
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
