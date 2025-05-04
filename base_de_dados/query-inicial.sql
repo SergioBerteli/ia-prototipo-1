@@ -18,4 +18,7 @@ CREATE TABLE Livros(
 
 INSERT INTO Livros(Titulo, Genero, Tema, NumeroDePaginas, AnoDeLancamento, GeneroProtagonista, IdiomaOriginal, 
 				   ComplexidadeDaLinguagem, Populariedade, PublicoAlvo, Narrador)
-Values("O Ceifador", "Romance", "Ficção Distópica", 443, 2016, "M", "Inglês", "Simples", "Muito Popular", "Jovem Adulto", "Narrador Onisciente");
+Values("O Ceifador", "Romance", "Ficção Distópica", 443, 2016, "M", "Inglês", "Simples", "Muito Popular", "Jovem Adulto", "Narrador Onisciente"),
+("Doadores de sono", "Ficção Científica", "Ficção Distópica", 176, 2014, "F", "Inglês", "Simples", "Popular", "Jovem Adulto", "1 pessoa");
+
+ALTER TABLE Livros CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
