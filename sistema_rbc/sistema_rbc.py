@@ -5,6 +5,7 @@ p_gen = 1
 p_prot_gen = 0.5
 p_tema = 0.7
 p_idioma_original = 0.6
+p_comp_ling = 0.8
 
 pag_range_perc = 10
 ano_range = 5
@@ -15,8 +16,7 @@ def pesos ():
     p_pop = float(input("Defina o peso da populariedade"))
     p_pub_alvo = float(input("Defina o peso do publico-alvo"))
     p_narracao = float(input("Defina o peso do tipo de narração"))
-    p_comp_ling = float(input("Defina o peso do complexidade da linguagem"))
-    return p_ano_lanc, p_num_pag, p_pop, p_pub_alvo, p_narracao, p_comp_ling
+    return p_ano_lanc, p_num_pag, p_pop, p_pub_alvo, p_narracao
 def get_caso_similar():
     pass
 
