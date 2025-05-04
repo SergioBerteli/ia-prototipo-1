@@ -1,1 +1,8 @@
-Genero (F), Ano de lançamento (U), numero de paginas (U), Genero do personagem principal (F), TEMA (F), idioma original (F), Complexidade da linguagem (U), Populariedade(U), Público-Alvo(U), Narrador(U), titulo do livro
+
+
+Genero (F) (1.0) , Ano de lançamento (U), numero de paginas (U), Genero do personagem principal (F)(0.9), TEMA (F)(0.7), idioma original (F)(0.6), Complexidade da linguagem (F)(0.8), Populariedade(U), Público-Alvo(U), Narrador(U), titulo do livro
+
+
+32
+10
+33 > Divinos rivais 

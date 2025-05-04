@@ -1,7 +1,10 @@
 FROM python:3.9
 
-RUN pip install mysql-connector-python
 
 WORKDIR /usr/app/src
 
 COPY . .
+
+RUN apt-get update && apt-get install libgl1-mesa-glx
+
+RUN pip install -r requirements.txt

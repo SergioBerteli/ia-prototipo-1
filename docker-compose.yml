@@ -1,6 +1,8 @@
 services:
   pythonapp:
     build: ./sistema_rbc/
+    stdin_open: true
+    tty: true
     command: python3 ./sistema_rbc.py
     depends_on:
       - basededados
