@@ -4,6 +4,11 @@ import time
 import mysql.connector
 import sys
 
+"""
+Alunos: Sergio Berteli Batista Filho e Homero Pytlovanciw
+Disciplina: Inteligência Artificial 1.
+Professora: Anita Maria da Rocha Fernandes
+"""
 
 class JanelaPrinciapl(QMainWindow):
     

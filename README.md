@@ -1,4 +1,8 @@
 # ia-prototipo-1
+Alunos: Sergio Berteli Batista Filho e Homero Pytlovanciw
+Disciplina: Inteligência Artificial 1.
+Professora: Anita Maria da Rocha Fernandes
+
 Requisitos para executar o script:
 - Ferramenta para acessar a CLI
 - Docker
